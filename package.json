@@ -1,5 +1,7 @@
 {
-  "name": "trivia",
+  "name": "trivia-game",
+  "homepage": "https://lucaschammanahas.github.io/trivia-game",
+  "main": "src/index.jsx",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
