@@ -1,6 +1,6 @@
 {
   "name": "trivia-game",
-  "homepage": "https://lucaschammanahas.github.io/trivia-game",
+  "homepage": "https://lucaschammanahas.github.io/Trivia-Game",
   "main": "src/index.jsx",
   "version": "0.1.0",
   "private": true,
